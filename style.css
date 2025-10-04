@@ -24,6 +24,12 @@ a {
   font-size: 0.85rem;
 }
 
+.main-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
 .dashboard {
   width: 100%;
   height: 100vh;
@@ -31,7 +37,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .dashboard button {
@@ -175,7 +180,7 @@ a {
 .privacy-option p {
   color: hsl(219.99, 10.27%, 46.3%);
   font-weight: 400;
-  padding: 0.25rem 0 0.25rem 1.6rem;
+  padding: 0.25rem 0 0.25rem 1.7rem;
 }
 
 .share-container {
@@ -188,7 +193,7 @@ a {
 .share-container div {
   display: flex;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.4rem;
 }
 
 .copy-link-container {
@@ -211,12 +216,13 @@ a {
 
 .learn-more-container span {
   font-size: 1.3rem;
-  margin-right: 0.2rem;
+  margin-right: 0.3rem;
 }
 
 .bottom-drawer-container {
   padding: 1rem;
   border-top: 1px solid hsl(225, 13%, 88%);
+  margin-top: 6rem;
 }
 
 .buttons-container {
